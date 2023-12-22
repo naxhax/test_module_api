@@ -1,0 +1,17 @@
+depends:
+  example_result: /data/depends
+header:
+  gpu_blocks: []
+  log_path: /data/workdir/.reserved/v_log.txt
+  module_id: 1
+  pid: -1
+  process: module-test
+  sharedir: /data/sharedir
+  workdir: /data/workdir
+params: {}
+status:
+  initialized: false
+  is_connected: false
+  last_check: 2023-12-22 17:44:28.591474+09:00
+  start_time: 2023-12-22 17:44:28.591494+09:00
+  status: PRE_INIT
