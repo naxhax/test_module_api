@@ -1,0 +1,15 @@
+docker:
+  container_name: module-test:0.0.1
+  environments: []
+  run_argument: --rm -it
+  run_command: bash
+  volumes:
+  - ./src:/app
+module:
+  internal_name: module-test
+  name: module_test
+  root_dir: /mnt/c/Users/Intern_1/Desktop/calici/test
+  version: 0.0.1
+testing:
+- name: test_module
+  path: /mnt/c/Users/Intern_1/Desktop/calici/test/.test/test-module

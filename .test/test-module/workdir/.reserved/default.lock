@@ -12,6 +12,6 @@ params: {}
 status:
   initialized: false
   is_connected: false
-  last_check: 2023-12-22 17:44:28.591474+09:00
+  last_check: 2023-12-22 17:54:41.604135+09:00
   start_time: 2023-12-22 17:44:28.591494+09:00
-  status: PRE_INIT
+  status: STOP
